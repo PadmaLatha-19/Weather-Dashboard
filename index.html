@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>☁️ Weather Dashboard</h2>
+
+        <input 
+            type="text" 
+            id="city" 
+            placeholder="Enter your city..."
+        >
+
+        <button id="search">Search</button>
+
+        <button id="icon">🌙</button>
+    </div>
+
+    <div class="card">
+        <h2 id="city-name">City</h2>
+
+        <p id="emojii">☀️</p>
+
+        <p>
+    🌡️ Temperature:
+    <span id="temperature">--</span>
+</p>
+
+        <p>
+            💧 Humidity:
+            <span id="humidity">--</span>
+        </p>
+
+        <p>
+            🌪️ Wind Speed:
+            <span id="wind-speed">--</span>
+        </p>
+
+        <p>
+            📅 Date:
+            <span id="date">--</span>
+        </p>
+    </div>
+
+    <div id="card-search">
+        <h2>Recent Searches</h2>
+
+        <ul id="recent-searches">
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
