@@ -1,1 +1,0 @@
-A simple Weather Dashboard built using HTML, CSS, and JavaScript. It uses the Fetch API and Open-Meteo API to display the temperature, humidity, wind speed, weather condition, and date for a searched city. The project also stores recent searches using Local Storage, allowing users to quickly search for previously viewed cities.
